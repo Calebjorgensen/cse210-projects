@@ -8,8 +8,6 @@ class Program
         Console.WriteLine("");
         Journal journal = new Journal();
         string menuOption = "";
-
-
         while (menuOption != "5") {
             Console.WriteLine("1.Write");
             Console.WriteLine("2.Display");

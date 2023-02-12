@@ -4,6 +4,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Sandbox World!");
+        int x = 15;
+        int y = 4;
+
+        int result = x / y;
+
     }
 }
