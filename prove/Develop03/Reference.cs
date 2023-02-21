@@ -6,7 +6,7 @@ public class Reference
     private int _chapter;
     private int _verse;
     private string _text;
-    private string _john_3_16 = "For God so loved the world taht he gave his only begotten Son, that whosoever believth in him should not peris, but have everlasting life.";
+    private string _john_3_16 = "For God so loved the world that he gave his only begotten Son, that whosoever believth in him should not perish, but have everlasting life.";
 
     public Reference()
     {
