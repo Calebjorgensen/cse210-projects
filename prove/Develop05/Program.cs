@@ -29,6 +29,22 @@ class Program
             Console.WriteLine();
             break;
 
+            case 3:
+            Console.WriteLine();
+            break;
+
+            case 4:
+            Console.WriteLine();
+            break;
+
+            case 5:
+            Console.WriteLine();
+            break;
+
+            case 6:
+            Console.WriteLine();
+            break;
+
         }
 
         return;
