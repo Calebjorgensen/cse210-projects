@@ -4,7 +4,7 @@ public class Lecture : Event
     private string _speaker;
     private int _capacity;
 
-    public Lecture(string title, string activity, string date, string time, Address address, string speaker, int capacity) : base(title, activity, date, time, address, speaker, capacity)
+    public Lecture(string title, string activity, string date, string time, Address address, string speaker, int capacity) : base(title, activity, date, time, address)
     {
         _speaker = speaker;
         _capacity = capacity;
@@ -23,7 +23,7 @@ public class Lecture : Event
     }
     public string GenerateDetailedLecture()
     {
-        string detailed = GeneratedStandard() + "\n";
+        string detailed = GenerateStandard() + "\n";
         detailed += "Speaker:" + _speaker + "\n";
         detailed += "Capacity:" + _capacity + " pax";
 
