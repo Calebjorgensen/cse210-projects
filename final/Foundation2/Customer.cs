@@ -5,7 +5,7 @@ public class Customer
 
     private Address _address;
 
-    public Customer(string name)
+    public Customer(string name, Address address)
     {
         _name = name;
         _address = address;

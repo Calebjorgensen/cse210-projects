@@ -18,7 +18,7 @@ class Program
             // this product is fake as well. 
         Product Pr1 = new Product("Fake item");
 
-        productList1.add(Pr1);
+        productList1.Add(Pr1);
 
         Order order1 = new Order(productsList1, customer1);
 
