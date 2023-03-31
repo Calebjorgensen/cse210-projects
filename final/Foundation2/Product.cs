@@ -14,5 +14,17 @@ public class Product
         _price = price;
         _quantity = quantity;
     }
+    public double CalculatePrice()
+    {
+        return _price * _quantity;
+    }
+    public string GetName()
+    {
+        return _name;
+    }
+    public string GetProdectID()
+    {
+        return_productID;
+    }
     
 }
