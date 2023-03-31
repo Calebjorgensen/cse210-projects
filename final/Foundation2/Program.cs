@@ -13,8 +13,15 @@ class Program
         List<Product> productsList1 = new List<Product>();
 
         Product Pr1 = new Product("Coupling black", "", 20,1);
+        
 
         productsList1.Add(Pr1);
+        
+
+        Order order1 = new Order(productsList1, customer1);
+
+        order1.DisplayResults();
+
 
 
     }
