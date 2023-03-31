@@ -20,7 +20,7 @@ class Program
 
         productList1.add(Pr1);
 
-        Order order1 = new Order(productsList1,customer1);
+        Order order1 = new Order(productsList1, customer1);
 
         order1.DisplayResults();
 

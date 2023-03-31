@@ -4,10 +4,10 @@ public class Product
 {
     private string _name;
     private string _productCode;
-    private string _price;
+    private double _price;
     private int _quantity;
 
-    public Product(string name, string productCode, string price, int quantity)
+    public Product(string name, string productCode, double price, int quantity)
     {
         _name = name;
         _productCode = productCode;
@@ -22,9 +22,9 @@ public class Product
     {
         return _name;
     }
-    public string GetProdectID()
+    public string GetProdectCode()
     {
-        return_productID;
+        return _productCode;
     }
     
 }
