@@ -14,4 +14,17 @@ public class Address
         _state = state;
         _country = country;
     }
+    public string GenerateAddress()
+    {
+        string address = _street + "," + _city + "\n" + _state + "," + _country;
+        return address;
+    }
+    public bool isUSA()
+    {
+        if (_country == "usa"){
+            return true;
+        } else {
+            return false;
+        }
+    }
 }
