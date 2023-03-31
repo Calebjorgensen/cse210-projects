@@ -33,4 +33,33 @@ public class Order
 
         return totalprice;
     }
+    public string GeneratePackLabel()
+    {
+        string packlabel = "Packing Label\n";
+        foreach (Product p in _products)
+        {
+            packlabel += p.GetName() + " " + p.GetProdectCode() + "\n";
+        }
+        return packlabel;
+    }
+    public string GenerateShipLabel()
+    {
+        string shiplabel = "shipping label\n";
+        shiplabel += _customer.GetName() + "\n" + _customer.GenerateAddress();
+        return shiplabel;
+    }
+    public void DisplayResults()
+    {
+        Console.WriteLine();
+
+        string packlabel = GeneratePackLabel();
+        string shiplabel = GenerateShipLabel();
+        double totalPrice = CalculateTotalPrice();
+
+        Console.WriteLine(shiplabel);
+        Console.WriteLine(packlabel);
+        Console.WriteLine($"Total Cost ${totalPrice}");
+        Console.WriteLine();
+    }
+
 }
