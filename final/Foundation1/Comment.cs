@@ -15,6 +15,6 @@ public class Comment
     }
     public void DisplayInfo()
     {
-        
+        Console.WriteLine($"{_user} - {_words}");
     }
 }
