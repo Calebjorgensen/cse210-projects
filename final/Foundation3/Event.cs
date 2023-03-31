@@ -18,13 +18,13 @@ public class Event
     public string GenerateStandard()
     {
         string standand = "Title:" + _title + "\n";
-        standard += "Description:" +_activity + "\n";
-        standard += _date + " " + _time + "\n";
+        standand += "Description:" +_activity + "\n";
+        standand += _date + " " + _time + "\n";
 
         string address = _address.GenerateCompleteAddress();
-        standard += address;
+        standand += address;
 
-        return standard;
+        return standand;
     }
     public string GenerateShort()
     {
