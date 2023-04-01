@@ -9,7 +9,6 @@ public class Comment
     public Comment(string user, string words)
     {
         _user = user;
-
         _words = words;
 
     }
