@@ -19,13 +19,17 @@ using System;
         Console.WriteLine();
         Console.WriteLine(lecture.GenerateShortLecutre());
 
-        Address addressT = new Address("A-1 warehouse","","","");
 
-        
-        
+
+        Address addressT = new Address("A-1 warehouse","","","");
+        Reception reception = new Reception("","","","",address,"");
 
         Console.WriteLine("Event 2");
         Console.WriteLine();
+        Console.WriteLine(reception.GenerateStandard());
+        Console.WriteLine();
+        Console.WriteLine(reception.GenerateDetailReception());
+        
         
     }
 }
