@@ -1,12 +1,12 @@
 using System;
 
-class Program
+ class Program
 {
     static void Main(string[] args)
     {
         Console.WriteLine("");
 
-        Address address = new Address("832 fake street","city","OR","use");
+        Address address = new Address("832 fake street","city","OR","usa");
 
         Lecture lecture = new Lecture("Movie","Movie rating","23","24",address,"Caleb",200);
 
@@ -19,7 +19,9 @@ class Program
         Console.WriteLine();
         Console.WriteLine(lecture.GenerateShortLecutre());
 
-        Address address1 = new Address("A-1 warehouse","","","");
+        Address addressT = new Address("A-1 warehouse","","","");
+
+        
         
 
         Console.WriteLine("Event 2");
