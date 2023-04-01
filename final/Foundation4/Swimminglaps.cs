@@ -7,19 +7,19 @@ public class Swimming : Exercise
         _name = "Swimming";
         _laps = laps;
     }
-    public override double CalulateDistance()
+    public override double CalculateDistance()
     {
         double distance = _laps * 50 / 1000;
         return distance;
     }
     public override double CalculateSpeed()
     {
-        double speed = CalulateDistance() / _minutes * 60;
+        double speed = CalculateDistance() / _minutes * 60;
         return speed;
     }
     public override double CalculatePace()
     {
-        double pace = _minutes / CalulateDistance();
+        double pace = _minutes / CalculateDistance();
         return pace;
     }
 

@@ -11,7 +11,7 @@ public class Bicycles : Exercise
     {
         return _speed;
     }
-    public override double CalulateDistance()
+    public override double CalculateDistance()
     {
         double distance = _speed * _minutes / 60;
         return distance;
