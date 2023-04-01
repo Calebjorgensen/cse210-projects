@@ -6,9 +6,9 @@ class Program
     {
         Console.WriteLine("");
 
-        Address address = new Address("832 fake street");
+        Address address = new Address("832 fake street","city","OR","use");
 
-        Lecture lecture = new Lecture("Rocky 3 is better then Cree 3");
+        Lecture lecture = new Lecture("Movie","Movie rating","23","24",address,"Caleb",200);
 
         Console.WriteLine("Event 1");
 
@@ -19,7 +19,7 @@ class Program
         Console.WriteLine();
         Console.WriteLine(lecture.GenerateShortLecutre());
 
-        Address address1 = new Address("A-1 warehouse");
-        Reception reception = new Reception("Joey and el", address);
+        Address address1 = new Address("A-1 warehouse","","","");
+        Reception reception = new Reception("Joey and el","moive","rating","23",address1,"Claeb",200);
     }
 }
