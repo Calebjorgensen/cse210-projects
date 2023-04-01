@@ -18,4 +18,9 @@ public class Exercise
     {
         return 0;
     }
+    public string GetSummary()
+    {
+        string summary = $"{_date} {_name} ({_minutes} min)- Distance {CaluclateDistance()} km, Speed: {CaluclateSpeed}";
+        return summary;
+    }
 }
