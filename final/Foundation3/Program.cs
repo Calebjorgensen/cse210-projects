@@ -20,6 +20,10 @@ class Program
         Console.WriteLine(lecture.GenerateShortLecutre());
 
         Address address1 = new Address("A-1 warehouse","","","");
-        Reception reception = new Reception("Joey and el","moive","rating","23",address1,"Claeb",200);
+        
+
+        Console.WriteLine("Event 2");
+        Console.WriteLine();
+        
     }
 }
