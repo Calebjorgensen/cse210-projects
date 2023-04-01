@@ -14,7 +14,7 @@ public class Running : Exercise
     }
     public override double CalculateSpeed()
     {
-        double speed = (_distance / _minutes) = 60;
+        double speed = (_distance / _minutes) * 60;
         return speed;
     }
     public override double CalculatePace()
