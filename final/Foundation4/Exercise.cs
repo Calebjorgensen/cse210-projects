@@ -10,7 +10,7 @@ public class Exercise
         _date = date;
         _minutes = minutes;
     }
-    public virtual double CalulateDistance()
+    public virtual double CalculateDistance()
     {
         return 0;
     }
@@ -18,9 +18,13 @@ public class Exercise
     {
         return 0;
     }
+    public virtual double CalculatePace()
+    {
+        return 0;
+    }
     public string GetSummary()
     {
-        string summary = $"{_date} {_name} ({_minutes} min)- Distance {CaluclateDistance()} km, Speed: {CaluclateSpeed()} kph, Pace: {CalculatePace()} minute per km";
+        string summary = $"{_date} {_name} ({_minutes} min)- Distance {CalculateDistance()} km, Speed: {CalculateSpeed()} kph, Pace: {CalculatePace()} minute per km";
         return summary;
     }
 }
