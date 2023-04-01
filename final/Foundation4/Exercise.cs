@@ -14,4 +14,8 @@ public class Exercise
     {
         return 0;
     }
+    public virtual double CalculateSpeed()
+    {
+        return 0;
+    }
 }
