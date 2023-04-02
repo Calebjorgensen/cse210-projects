@@ -43,6 +43,10 @@ class Program
 
             Console.WriteLine(Console.Read());
 
+            List<Journal> journalList = new List<Journal>();
+
+            Entry entryChoice1 = new Entry("Display");
+
             
 
 
