@@ -21,8 +21,8 @@ using System;
 
 // This is event one, set up in a simple line set up. of writeline 
 
-        Address addressT = new Address("A-1 warehouse","","","");
-        Reception reception = new Reception("","","","",address,"");
+        Address addressT = new Address("A-1 warehouse","743 not this lane","CA","USA");
+        Reception reception = new Reception("Dnace","Bring your dancing shoes","8am","12pm",address,"The Johnsons");
 
         Console.WriteLine("Event 2");
         Console.WriteLine();
