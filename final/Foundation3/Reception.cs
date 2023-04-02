@@ -19,7 +19,7 @@ public class Reception : Event
     public string GenerateDetailReception()
     {
         string detail = GenerateStandard() + "\n";
-        detail += "Reception:" + _place + "\n";
+        detail += "Reception:" + _place;
 
         return detail;
 

@@ -30,13 +30,5 @@ public class Lecture : Event
         return detailed;
 
     }
-    public string GenerateShortLecutre()
-    {
-        string shortLecture = "";
-        string eventType = ReturnEventType();
-        shortLecture += "Event Type: " + eventType + "\n";
-        shortLecture += GenerateShort();
-        return shortLecture; 
-    }
 
 }
