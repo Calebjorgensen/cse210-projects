@@ -34,7 +34,7 @@ class Program
             //}
 
 
-            Console.WriteLine();
+            Console.WriteLine("This is a test program");
 
 
         }

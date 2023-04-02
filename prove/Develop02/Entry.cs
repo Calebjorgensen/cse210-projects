@@ -11,6 +11,6 @@ public class Entry
 
     public void DisplayInfo()
     {
-        
+        Console.WriteLine($"{_entry}");
     }
 }

@@ -20,6 +20,9 @@ public class Journal
     public Journal(string Display, string Load, string Save, string Quit)
     {
         _display = Display;
+        _load = Load;
+        _save = Save;
+        _quit = Quit;
     }
 
 }
