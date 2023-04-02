@@ -36,6 +36,15 @@ class Program
 
             Console.WriteLine("This is a test program");
 
+            List<Entry> entryList = new List<Entry>();
+
+            Entry entry1 = new Entry(Console.ReadLine());
+
+            foreach(Entry entry in entryList)
+            {
+                entry.DisplayInfo();
+            }
+
 
         }
         

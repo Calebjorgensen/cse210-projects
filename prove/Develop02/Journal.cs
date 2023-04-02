@@ -24,5 +24,10 @@ public class Journal
         _save = Save;
         _quit = Quit;
     }
+    public void DisplayInfo()
+    {
+        Console.WriteLine();
+        Console.WriteLine($"{_display}");
+    }
 
 }
