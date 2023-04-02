@@ -17,6 +17,8 @@ public class Journal
     private string _save;
     private string _quit;
 
+    List<Entry> _entry = new List<Entry>();
+
     public Journal(string Display, string Load, string Save, string Quit)
     {
         _display = Display;
@@ -24,10 +26,21 @@ public class Journal
         _save = Save;
         _quit = Quit;
     }
+    public void ListEntry(Entry entry)
+    {
+        _entry.Add(entry);
+    }
     public void DisplayInfo()
     {
+        Console.WriteLine($"{_display}");
         Console.WriteLine();
-        Console.WriteLine($"{_display} ");
+        Console.WriteLine($"{_entry}");
+
+        foreach(Entry entry in _entry)
+        {
+            
+        }
     }
+
 
 }

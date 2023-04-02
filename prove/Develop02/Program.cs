@@ -34,12 +34,14 @@ class Program
             //}
 
 
-            Console.WriteLine("This is a test program");
 
-            List<Entry> entryList = new List<Entry>();
+            Console.WriteLine("1. Write:");
+            Console.WriteLine("2. Display:");
+            Console.WriteLine("3. Load:");
+            Console.WriteLine("4. Save:");
+            Console.WriteLine("5. Quit:");
 
-            Entry entry1 = new Entry(Console.ReadLine());
-            Console.WriteLine(entry1);
+            Console.WriteLine(Console.Read());
 
             
 
