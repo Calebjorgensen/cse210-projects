@@ -17,7 +17,7 @@ public class Journal
     private string _save;
     private string _quit;
 
-    List<Entry> _entry = new List<Entry>();
+    private List<Entry> _entry = new List<Entry>();
 
     public Journal(string Display, string Load, string Save, string Quit)
     {
@@ -38,7 +38,7 @@ public class Journal
 
         foreach(Entry entry in _entry)
         {
-            
+
         }
     }
 

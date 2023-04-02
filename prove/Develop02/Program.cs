@@ -45,10 +45,13 @@ class Program
 
             List<Journal> journalList = new List<Journal>();
 
-            Entry entryChoice1 = new Entry("Display");
+            Journal journal1 = new Journal("Display:", "Load:", "Save:", "Quit:");
+
+            Entry journal1Entry1 = new Entry("good code?");
+
+            journal1.ListEntry(journal1Entry1);
 
             
-
 
         }
         
