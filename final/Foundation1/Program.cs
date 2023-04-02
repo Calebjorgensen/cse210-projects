@@ -39,7 +39,7 @@ class Program
         video2.ListComment(video2Comment2);
         video2.ListComment(video2Comment3);
 
-        videoList.Add(video2);
+        videoList.Add(video2); // this is for video 2.
 
         foreach(Video video in videoList)
         {
