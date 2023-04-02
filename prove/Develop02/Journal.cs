@@ -42,5 +42,14 @@ public class Journal
         }
     }
 
+<<<<<<< Updated upstream
+=======
+        foreach(Entry entry in _entry)
+        {
+            entry.DisplayInfo();
+
+        }
+    }
+>>>>>>> Stashed changes
 
 }
