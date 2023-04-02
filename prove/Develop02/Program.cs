@@ -39,11 +39,9 @@ class Program
             List<Entry> entryList = new List<Entry>();
 
             Entry entry1 = new Entry(Console.ReadLine());
+            Console.WriteLine(entry1);
 
-            foreach(Entry entry in entryList)
-            {
-                entry.DisplayInfo();
-            }
+            
 
 
         }

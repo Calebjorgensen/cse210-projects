@@ -27,7 +27,7 @@ public class Journal
     public void DisplayInfo()
     {
         Console.WriteLine();
-        Console.WriteLine($"{_display} display:");
+        Console.WriteLine($"{_display} ");
     }
 
 }
